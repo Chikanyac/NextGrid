@@ -85,6 +85,70 @@
     </section>
 
     <!-- CONTACT / CTA -->
+    /* CONTACT / CALL TO ACTION */
+.contact-section {
+    background-color: #eef2f7;
+    padding: 60px 20px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.2s;
+}
+
+.contact-section h2 {
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+/* Form layout */
+.contact-section .contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 15px; /* spacing between inputs */
+}
+
+/* Input and textarea styling */
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect */
+.contact-section .contact-form input:focus,
+.contact-section .contact-form textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Submit button */
+.contact-section .contact-form button {
+    width: 100%; /* make button full width to match inputs */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-section .contact-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
     <section id="contact-cta" class="contact-section">
         <h2>Need Help With Your Computer?</h2>
         <p>Don’t let technical issues slow you down — contact us today for reliable support.</p>
