@@ -321,7 +321,22 @@ h1, h2, h3 {
 /* =========================
    FOOTER
 ========================= */
+.site-footer {
+    background-color: #0056b3;   /* darker bluish footer */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
 
+footer.site-footer a {
+    color: #e0f0ff;              /* light bluish links */
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+.site-footer a:hover {
+    color: #fff;                  /* white on hover */
+}
 
 
 /* =========================
