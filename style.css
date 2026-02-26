@@ -21,19 +21,36 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 /* =========================
    HEADER
 ========================= */
 .site-header {
-    background-color: #222;
-    color: #fff;
+    background-color: #222;       /* Keep dark background */
+    color: #fff;                  /* Default text color */
     padding: 20px 0;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
+/* Logo styling */
+.site-header .logo {
+    color: #fff;                  /* Make logo visible on dark background */
+    font-size: 2.2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Subtitle under logo */
+.site-header p {
+    color: #ddd;                  /* Slightly lighter than white for subtitle */
+    margin: 5px 0 10px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Navigation menu */
 .site-header .main-nav ul {
     list-style: none;
     padding: 0;
@@ -42,14 +59,16 @@ h1, h2, h3 {
     justify-content: center;
     gap: 20px;
 }
+
 .site-header .main-nav ul li a {
-    color: #fff;
+    color: #fff;                  /* White links */
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
+
 .site-header .main-nav ul li a:hover {
-    color: #007BFF;
+    color: #007BFF;               /* Highlight on hover */
 }
 
 /* =========================
