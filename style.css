@@ -328,12 +328,6 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.site-footer a {
-    color: #e0f0ff;              /* light bluish links */
-    text-decoration: none;
-    margin: 0 5px;
-    transition: color 0.3s ease;
-}
 
 .site-footer a:hover {
     color: #fff;                  /* white on hover */
