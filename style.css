@@ -319,26 +319,25 @@ h1, h2, h3 {
 }
 
 /* =========================
-   FOOTER
+   HEADER
 ========================= */
-.site-footer {
-    background-color: #0056b3;   /* darker bluish footer */
+.site-header {
+    background-color: #0056b3;   /* SAME blue as footer */
     color: #fff;
     padding: 40px 20px;
     text-align: center;
 }
 
-footer.site-footer a {
-    color: #e0f0ff;              /* light bluish links */
+.main-nav ul li a {
+    color: #e0f0ff;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
     transition: color 0.3s ease;
 }
-.site-footer a:hover {
-    color: #fff;                  /* white on hover */
+
+.main-nav ul li a:hover {
+    color: #fff;
 }
-
-
 /* =========================
    ANIMATIONS
 ========================= */
